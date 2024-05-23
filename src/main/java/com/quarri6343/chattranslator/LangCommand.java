@@ -21,7 +21,7 @@ public class LangCommand extends CommandBase {
 
     @Override
     public String getCommandUsage(ICommandSender sender) {
-        return "/lang <jp or en>";
+        return "/lang <ja or en>";
     }
 
     @Override
