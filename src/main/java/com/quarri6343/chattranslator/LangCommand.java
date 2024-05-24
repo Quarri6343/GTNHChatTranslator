@@ -9,10 +9,11 @@ public class LangCommand extends CommandBase {
     public static CurrentLang currentLang = CurrentLang.EN;
 
     @Override
-    public int getRequiredPermissionLevel()
+    public boolean canCommandSenderUseCommand(ICommandSender sender)
     {
-        return 0;
+        return true;
     }
+
 
     @Override
     public String getCommandName() {
